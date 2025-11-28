@@ -31,6 +31,10 @@ import author3 from "../images/author-3.jpg";
 import post1 from "../images/post-1.jpg";
 import post2 from "../images/post-2.jpg";
 import post3 from "../images/post-3.jpg";
+import dentalProcess1 from "../images/dental-process-img-1.jpg";
+import dentalProcess2 from "../images/dental-process-img-2.jpg";
+import dentalProcess3 from "../images/dental-process-img-3.jpg";
+import dentalProcess4 from "../images/dental-process-img-4.jpg";
 
 export {
   Logo,
@@ -66,4 +70,8 @@ export {
   post1,
   post2,
   post3,
+  dentalProcess1,
+  dentalProcess2,
+  dentalProcess3,
+  dentalProcess4,
 };

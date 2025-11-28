@@ -19,6 +19,18 @@ import whyChooseImg4 from "../images/icon-why-us-4.svg";
 import whyChooseImg5 from "../images/icon-why-us-5.svg";
 import whyChooseImg6 from "../images/icon-why-us-6.svg";
 import whyChooseImg from "../images/why-choose-us-img.png";
+import HowItWorkImg from "../images/how-it-work-img.jpg";
+import HowItWorkIcon1 from "../images/icon-how-it-work-1.svg";
+import HowItWorkIcon2 from "../images/icon-how-it-work-2.svg";
+import HowItWorkIcon3 from "../images/icon-how-it-work-3.svg";
+import testimonialImg1 from "../images/testimonials-img.jpg";
+import testimonialQuote from "../images/icon-testimonial-quote.svg";
+import author1 from "../images/author-1.jpg";
+import author2 from "../images/author-2.jpg";
+import author3 from "../images/author-3.jpg";
+import post1 from "../images/post-1.jpg";
+import post2 from "../images/post-2.jpg";
+import post3 from "../images/post-3.jpg";
 
 export {
   Logo,
@@ -42,4 +54,16 @@ export {
   whyChooseImg4,
   whyChooseImg5,
   whyChooseImg6,
+  HowItWorkImg,
+  HowItWorkIcon1,
+  HowItWorkIcon2,
+  HowItWorkIcon3,
+  testimonialImg1,
+  testimonialQuote,
+  author1,
+  author2,
+  author3,
+  post1,
+  post2,
+  post3,
 };

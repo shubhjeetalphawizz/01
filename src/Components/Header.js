@@ -1,5 +1,5 @@
 import React from "react";
-import {Logo} from "./Image";
+import { Logo } from "./Image";
 
 const Header = () => {
   return (
@@ -9,7 +9,7 @@ const Header = () => {
           <nav className="navbar navbar-expand-lg">
             <div className="container">
               <a className="navbar-brand" href="#">
-                <img src={Logo} alt="Logo" />
+                <img src={Logo} alt="Logo" className="mainLogo" />
               </a>
               <div className="collapse navbar-collapse main-menu">
                 <div className="nav-menu-wrapper">

@@ -80,7 +80,7 @@ const Footer = () => {
             <div class="row">
               <div class="col-lg-12">
                 <div class="footer-copyright-text">
-                  <p>Copyright © 2024 All Rights Reserved.</p>
+                  <p>Copyright © 2025 All Rights Reserved.</p>
                 </div>
               </div>
             </div>

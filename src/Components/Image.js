@@ -1,12 +1,12 @@
 import Logo from "../Image/mainLogo.png";
-import HeroImg from "../images/hero-img.png";
+import HeroImg from "../Image/heroImg.png";
 import Theeth1 from "../images/icon-hero-theeth-1.svg";
 import Theeth2 from "../images/icon-hero-theeth-2.svg";
 import Theeth3 from "../images/icon-hero-theeth-3.svg";
 import StarIcon from "../images/icon-star.svg";
 import DantistDoctor from "../images/dantist-doctor-img.jpg";
-import AboutUsImg from "../images/about-us-img-1.jpg";
-import AboutUsImg2 from "../images/about-us-img-2.jpg";
+import AboutUsImg from "../Image/selfImg1.jpg";
+import AboutUsImg2 from "../Image/selfImg2.jpg";
 import AboutExpreanceImg from "../images/about-experience-circle.png";
 import IconServices1 from "../images/icon-services-1.svg";
 import IconServices2 from "../images/icon-services-2.svg";
@@ -31,6 +31,10 @@ import author3 from "../images/author-3.jpg";
 import post1 from "../images/post-1.jpg";
 import post2 from "../images/post-2.jpg";
 import post3 from "../images/post-3.jpg";
+import dentalProcess1 from "../images/dental-process-img-1.jpg";
+import dentalProcess2 from "../images/dental-process-img-2.jpg";
+import dentalProcess3 from "../images/dental-process-img-3.jpg";
+import dentalProcess4 from "../images/dental-process-img-4.jpg";
 
 export {
   Logo,
@@ -66,4 +70,8 @@ export {
   post1,
   post2,
   post3,
+  dentalProcess1,
+  dentalProcess2,
+  dentalProcess3,
+  dentalProcess4,
 };

@@ -1,5 +1,6 @@
 import React from "react";
 import { Logo } from "./Image";
+import { NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -8,36 +9,31 @@ const Header = () => {
         <div className="header-sticky">
           <nav className="navbar navbar-expand-lg">
             <div className="container">
-              <a className="navbar-brand" href="#">
+              <NavLink className="navbar-brand" to="/">
                 <img src={Logo} alt="Logo" className="mainLogo" />
-              </a>
+              </NavLink>
               <div className="collapse navbar-collapse main-menu">
                 <div className="nav-menu-wrapper">
                   <ul className="navbar-nav mr-auto" id="menu">
                     <li className="nav-item submenu">
-                      <a className="nav-link" href="#">
+                      <NavLink className="nav-link" to="/">
                         Home
-                      </a>
+                      </NavLink>
                     </li>
                     <li className="nav-item">
-                      <a className="nav-link" href="#">
+                      <NavLink className="nav-link" to="/about">
                         About Us
-                      </a>
+                      </NavLink>
                     </li>
                     <li className="nav-item">
-                      <a className="nav-link" href="#">
+                      <NavLink className="nav-link" to="/service">
                         Services
-                      </a>
+                      </NavLink>
                     </li>
                     <li className="nav-item submenu">
-                      <a className="nav-link" href="#">
-                        Pages
-                      </a>
-                    </li>
-                    <li className="nav-item">
-                      <a className="nav-link" href="#">
-                        Contact Us
-                      </a>
+                      <NavLink className="nav-link" to="/blog">
+                        Blog
+                      </NavLink>
                     </li>
                     <li className="nav-item highlighted-menu">
                       <a className="nav-link" href="#">
@@ -47,9 +43,9 @@ const Header = () => {
                   </ul>
                 </div>
                 <div className="header-btn d-inline-flex">
-                  <a href="#" className="btn-default">
+                  <NavLink to="/contact" className="btn-default">
                     book appointment
-                  </a>
+                  </NavLink>
                 </div>
               </div>
               <div className="navbar-toggle"></div>

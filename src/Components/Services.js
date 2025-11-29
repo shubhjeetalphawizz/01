@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import {
   StarIcon,
   IconServices3,
@@ -42,7 +43,7 @@ const Services = () => {
                   </p>
                 </div>
                 <div className="read-more-btn">
-                  <a href="#">read more</a>
+                  <NavLink to="#">read more</NavLink>
                 </div>
               </div>
             </div>
@@ -62,7 +63,7 @@ const Services = () => {
                   </p>
                 </div>
                 <div className="read-more-btn">
-                  <a href="#">read more</a>
+                  <NavLink to="#">read more</NavLink>
                 </div>
               </div>
             </div>
@@ -82,7 +83,7 @@ const Services = () => {
                   </p>
                 </div>
                 <div className="read-more-btn">
-                  <a href="#">read more</a>
+                  <NavLink to="#">read more</NavLink>
                 </div>
               </div>
             </div>
@@ -102,12 +103,12 @@ const Services = () => {
                   </p>
                 </div>
                 <div className="read-more-btn">
-                  <a href="#">read more</a>
+                  <NavLink to="#">read more</NavLink>
                 </div>
               </div>
             </div>
 
-            <div className="col-lg-12">
+            <div className="col-lg-12 d-none">
               <div
                 className="services-box-footer wow fadeInUp"
                 data-wow-delay="1s"
@@ -116,15 +117,15 @@ const Services = () => {
                   We believe in using the latest technology and techniques to
                   ensure the best outcomes for our patients.
                 </p>
-                <a href="#" className="btn-default">
+                <NavLink to="#" className="btn-default">
                   view all service
-                </a>
+                </NavLink>
               </div>
             </div>
           </div>
         </div>
 
-        <div className="intro-clinic-video">
+        <div className="intro-clinic-video d-none">
           <div className="container-fluid">
             <div className="row">
               <div className="col-lg-12">
@@ -141,9 +142,9 @@ const Services = () => {
                       data-wow-delay="0.25s"
                       data-cursor-text="Play"
                     >
-                      <a href="#" className="popup-video play-btn">
+                      <NavLink to="#" className="popup-video play-btn">
                         play video
-                      </a>
+                      </NavLink>
                     </div>
                   </div>
                 </div>

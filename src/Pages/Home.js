@@ -1,16 +1,14 @@
 import React from "react";
-
-import { Autoplay } from "swiper/modules";
 import About from "../Components/About";
 import Services from "../Components/Services";
 import WhyChoose from "../Components/WhyChoose";
+import { NavLink } from "react-router-dom";
 import {
   HeroImg,
   Theeth1,
   Theeth2,
   Theeth3,
   StarIcon,
-  DantistDoctor,
 } from "../Components/Image";
 import HowWork from "../Components/HowWork";
 import Testimonial from "../Components/Testimonial";
@@ -26,14 +24,17 @@ const Home = () => {
               <div className="hero-content">
                 <div className="section-title">
                   <h1 className="text-anime-style-2" data-cursor="-opaque">
-                    Experience <span>Dental Excellence</span> with a Gentle
-                    Touch{" "}
+                    Meet Dr. <br></br>
+                    <span>Kaustubh Bhapkar</span>
                   </h1>
                   <p className="wow fadeInUp" data-wow-delay="0.25s">
-                    It is a long established fact that a reader will be
-                    distracted by the readable content of a page when looking at
-                    its layout. The point of using Lorem Ipsum is that it has a
-                    more-or-less normal
+                    One of the best dental clinic in Indore, Bhapkar Dental
+                    Care, is a modern, specialist-driven dental centre committed
+                    to delivering advanced, ethical, and patient-focused
+                    treatment. With a strong foundation built on technology,
+                    expertise, and trust, our clinic ensures that every patient
+                    receives care that is precise, comfortable, and truly
+                    personalised.
                   </p>
                 </div>
 
@@ -41,12 +42,10 @@ const Home = () => {
                   className="hero-content-body wow fadeInUp"
                   data-wow-delay="0.5s"
                 >
-                  <a href="#" className="btn-default">
+                  <NavLink to="/contact" className="btn-default">
                     make an appointment
-                  </a>
+                  </NavLink>
                 </div>
-
-               
               </div>
             </div>
 
@@ -57,8 +56,6 @@ const Home = () => {
                     <img src={HeroImg} alt="" />
                   </figure>
                 </div>
-
-              
 
                 <div className="hero-icon-list">
                   <div className="hero-icon-box-1">
@@ -87,7 +84,7 @@ const Home = () => {
       <WhyChoose />
       <HowWork />
       <Testimonial />
-      <Blog/>
+      <Blog />
     </>
   );
 };

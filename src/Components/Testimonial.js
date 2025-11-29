@@ -10,6 +10,7 @@ import {
   author2,
   author3,
 } from "./Image";
+import { Autoplay } from "swiper/modules";
 
 const Testimonial = () => {
   return (
@@ -68,10 +69,17 @@ const Testimonial = () => {
                 </div>
               </div>
             </div>
-
             <div className="col-lg-7">
               <div className="testimonial-slider">
-                <Swiper className="mySwiper">
+                <Swiper
+                  className="mySwiper"
+                  loop={true}
+                  autoplay={{
+                    delay: 3000,
+                    disableOnInteraction: false,
+                  }}
+                  modules={[Autoplay]}
+                >
                   <SwiperSlide>
                     <div className="testimonial-item">
                       <div className="testimonial-header">
@@ -80,11 +88,11 @@ const Testimonial = () => {
                         </div>
                         <div className="testimonial-content">
                           <p>
-                            "I want to say thank you to my doctor Steve! Vivamus
-                            sagittis massa vitae bibendum rhoncus. Duis cursus.”
-                            “Thank you for helping me overcome my fear of the
-                            dentist! Vivamus sagittis massa vitae bibendum
-                            rhoncus. Duis cursus."
+                            "Lorem Ipsum is simply dummy text of the printing
+                            and typesetting industry. Lorem Ipsum has been the
+                            industry's standard dummy text ever since the 1500s,
+                            when an unknown printer took a galley of type and
+                            scrambled it to make a type specimen book"
                           </p>
                         </div>
                       </div>
@@ -95,7 +103,7 @@ const Testimonial = () => {
                           </figure>
                         </div>
                         <div className="author-content">
-                          <h3>robert lee</h3>
+                          <h3>Palak Tiwari</h3>
                           <p>software engineer</p>
                         </div>
                       </div>
@@ -109,11 +117,11 @@ const Testimonial = () => {
                         </div>
                         <div className="testimonial-content">
                           <p>
-                            "The best dental experience I've ever had! The team
-                            was professional and friendly, and the results were
-                            amazing. Highly recommend!"Dr. Smith and his staff
-                            are fantastic! They made me feel comfortable and at
-                            ease during my visit."
+                            "Lorem Ipsum is simply dummy text of the printing
+                            and typesetting industry. Lorem Ipsum has been the
+                            industry's standard dummy text ever since the 1500s,
+                            when an unknown printer took a galley of type and
+                            scrambled it to make a type specimen book"
                           </p>
                         </div>
                       </div>
@@ -124,8 +132,8 @@ const Testimonial = () => {
                           </figure>
                         </div>
                         <div className="author-content">
-                          <h3>banson doe</h3>
-                          <p>teacher</p>
+                          <h3>Shubh Jeet</h3>
+                          <p>Developer</p>
                         </div>
                       </div>
                     </div>
@@ -138,11 +146,11 @@ const Testimonial = () => {
                         </div>
                         <div className="testimonial-content">
                           <p>
-                            "Excellent service and care. The staff is
-                            knowledgeable and always willing to answer
-                            questions. I wouldn't go anywhere else for my dental
-                            needs.""From the moment I walked in, I felt welcomed
-                            and cared for. staff is exceptional."
+                            "Lorem Ipsum is simply dummy text of the printing
+                            and typesetting industry. Lorem Ipsum has been the
+                            industry's standard dummy text ever since the 1500s,
+                            when an unknown printer took a galley of type and
+                            scrambled it to make a type specimen book"
                           </p>
                         </div>
                       </div>
@@ -153,7 +161,7 @@ const Testimonial = () => {
                           </figure>
                         </div>
                         <div className="author-content">
-                          <h3>thomas linda</h3>
+                          <h3>Pratiksha</h3>
                           <p>designer</p>
                         </div>
                       </div>

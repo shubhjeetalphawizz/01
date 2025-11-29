@@ -1,15 +1,11 @@
-import React from 'react'
-import {
-  StarIcon,
-  post1,
-  post2,
-  post3,
-} from "./Image";
+import React from "react";
+import { StarIcon, post1, post2, post3 } from "./Image";
+import { NavLink } from "react-router-dom";
 
 const Blog = () => {
   return (
     <>
-    <div className="our-blog">
+      <div className="our-blog">
         <div className="container">
           <div className="row section-row">
             <div className="col-lg-12">
@@ -30,14 +26,16 @@ const Blog = () => {
               <div className="blog-item wow fadeInUp">
                 <div className="post-featured-image" data-cursor-text="View">
                   <figure>
-                    <a href="#" className="image-anime">
+                    <NavLink to="#" className="image-anime">
                       <img src={post1} alt="" />
-                    </a>
+                    </NavLink>
                   </figure>
                 </div>
                 <div className="post-item-body">
                   <h2>
-                    <a href="#">The Importance of Regular Dental Check-Ups</a>
+                    <NavLink to="#">
+                      The Importance of Regular Dental Check-Ups
+                    </NavLink>
                   </h2>
                   <p>
                     Our waiting room features a variety of plants that help
@@ -45,9 +43,9 @@ const Blog = () => {
                   </p>
                 </div>
                 <div className="post-item-footer">
-                  <a href="#" className="read-more-btn">
+                  <NavLink className="read-more-btn" to="#">
                     read more
-                  </a>
+                  </NavLink>
                 </div>
               </div>
             </div>
@@ -56,16 +54,16 @@ const Blog = () => {
               <div className="blog-item wow fadeInUp" data-wow-delay="0.25s">
                 <div className="post-featured-image" data-cursor-text="View">
                   <figure>
-                    <a href="#" className="image-anime">
+                    <NavLink className="image-anime" to="#">
                       <img src={post2} alt="" />
-                    </a>
+                    </NavLink>
                   </figure>
                 </div>
                 <div className="post-item-body">
                   <h2>
-                    <a href="#">
+                    <NavLink to="#">
                       Top 5 Benefits of Professional Teeth Whitening
-                    </a>
+                    </NavLink>
                   </h2>
                   <p>
                     We believe in promoting health and wellness in every aspect
@@ -73,9 +71,9 @@ const Blog = () => {
                   </p>
                 </div>
                 <div className="post-item-footer">
-                  <a href="#" className="read-more-btn">
+                  <NavLink to="#" className="read-more-btn">
                     read more
-                  </a>
+                  </NavLink>
                 </div>
               </div>
             </div>
@@ -84,16 +82,16 @@ const Blog = () => {
               <div className="blog-item wow fadeInUp" data-wow-delay="0.25s">
                 <div className="post-featured-image" data-cursor-text="View">
                   <figure>
-                    <a href="#" className="image-anime">
+                    <NavLink to="#" className="image-anime">
                       <img src={post3} alt="" />
-                    </a>
+                    </NavLink>
                   </figure>
                 </div>
                 <div className="post-item-body">
                   <h2>
-                    <a href="#">
+                    <NavLink to="#">
                       Understanding Dental Implants: What You Need to Know
-                    </a>
+                    </NavLink>
                   </h2>
                   <p>
                     Our clinic donates dental care services to underprivileged
@@ -101,9 +99,9 @@ const Blog = () => {
                   </p>
                 </div>
                 <div className="post-item-footer">
-                  <a href="#" className="read-more-btn">
+                  <NavLink to="#" className="read-more-btn">
                     read more
-                  </a>
+                  </NavLink>
                 </div>
               </div>
             </div>
@@ -114,7 +112,7 @@ const Blog = () => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default Blog
+export default Blog;

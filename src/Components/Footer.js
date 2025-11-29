@@ -1,5 +1,6 @@
 import React from "react";
 import { Logo } from "./Image";
+import { NavLink } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -26,16 +27,16 @@ const Footer = () => {
                 <h3>quick links</h3>
                 <ul>
                   <li>
-                    <a href="#">home</a>
+                    <NavLink to="#">home</NavLink>
                   </li>
                   <li>
-                    <a href="#">about us</a>
+                    <NavLink to="#">about us</NavLink>
                   </li>
                   <li>
-                    <a href="#">services</a>
+                    <NavLink to="#">services</NavLink>
                   </li>
                   <li>
-                    <a href="#">book apoointment</a>
+                    <NavLink to="#">book apoointment</NavLink>
                   </li>
                 </ul>
               </div>
@@ -46,16 +47,16 @@ const Footer = () => {
                 <h3>social media</h3>
                 <ul>
                   <li>
-                    <a href="#">facebook</a>
+                    <NavLink to="#">facebook</NavLink>
                   </li>
                   <li>
-                    <a href="#">instagram</a>
+                    <NavLink to="#">instagram</NavLink>
                   </li>
                   <li>
-                    <a href="#">youtube</a>
+                    <NavLink to="#">youtube</NavLink>
                   </li>
                   <li>
-                    <a href="#">twitter</a>
+                    <NavLink to="#">twitter</NavLink>
                   </li>
                 </ul>
               </div>
@@ -66,10 +67,10 @@ const Footer = () => {
                 <h3>contact us</h3>
                 <ul>
                   <li>
-                    <a href="#">info@dental.com</a>
+                    <NavLink to="#">info@dental.com</NavLink>
                   </li>
                   <li>
-                    <a href="#">+91 98765 43210</a>
+                    <NavLink to="#">+91 98765 43210</NavLink>
                   </li>
                 </ul>
               </div>

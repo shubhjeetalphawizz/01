@@ -344,9 +344,13 @@ body {
 }
 
 .section-title h1 {
-  font-size: 54px;
+  font-size: 45px;
   font-weight: 700;
   margin-bottom: 0;
+}
+.section-title h1 span{
+  display: flex;
+  width: 100%;
 }
 
 .section-title h2 {
@@ -376,9 +380,6 @@ body {
   font-size: 14px;
 }
 
-/************************************/
-/**** 	   03. Header css		 ****/
-/************************************/
 
 header.main-header {
   background-color: var(--secondary-color);
@@ -636,9 +637,6 @@ header.main-header .header-sticky.active {
   color: var(--accent-color);
 }
 
-/************************************/
-/***        04. Hero css	      ***/
-/************************************/
 
 .hero {
   background: var(--secondary-color) url("./images/hero-bg.svg") no-repeat;
@@ -1054,9 +1052,6 @@ header.main-header .header-sticky.active {
   object-fit: cover;
 }
 
-/************************************/
-/***        05. CTA Box css	      ***/
-/************************************/
 
 .cta-box {
   background-color: var(--primary-color);
@@ -1106,9 +1101,6 @@ header.main-header .header-sticky.active {
   text-align: right;
 }
 
-/************************************/
-/***       06. About Us css	      ***/
-/************************************/
 
 .about-us {
   padding: 100px 0;
@@ -1208,9 +1200,6 @@ header.main-header .header-sticky.active {
   border-radius: 50%;
 }
 
-/************************************/
-/***     07. Our Services css	  ***/
-/************************************/
 
 .our-services {
   position: relative;
@@ -1499,9 +1488,6 @@ header.main-header .header-sticky.active {
   margin: 0;
 }
 
-/************************************/
-/***     08. Why Choose Us css	  ***/
-/************************************/
 
 .why-choose-us {
   position: relative;
@@ -1575,9 +1561,6 @@ header.main-header .header-sticky.active {
   z-index: 1;
 }
 
-/************************************/
-/***     09. How It Work Css	  ***/
-/************************************/
 
 .how-it-work {
   padding: 100px 0;
@@ -1666,9 +1649,6 @@ header.main-header .header-sticky.active {
   margin: 0;
 }
 
-/************************************/
-/***      10. Our Team Css	      ***/
-/************************************/
 
 .our-team {
   position: relative;
@@ -1781,9 +1761,6 @@ header.main-header .header-sticky.active {
   background: var(--accent-color);
 }
 
-/************************************/
-/***   11. Our Testimonials Css   ***/
-/************************************/
 
 .our-testimonials {
   padding: 100px 0;
@@ -1865,10 +1842,6 @@ header.main-header .header-sticky.active {
   font-size: 14px;
   color: #ffa800;
 }
-
-/* .our-testimonials .swiper-wrapper {
-  cursor: none;
-} */
 
 .testimonial-item .testimonial-quote-image {
   margin-bottom: 30px;
@@ -1968,9 +1941,6 @@ header.main-header .header-sticky.active {
   transform: rotate(225deg);
 }
 
-/************************************/
-/***       12. Our Blog  Css	  ***/
-/************************************/
 
 .our-blog {
   position: relative;
@@ -2074,9 +2044,6 @@ header.main-header .header-sticky.active {
   color: var(--primary-color);
 }
 
-/************************************/
-/***    13. Our Contact Us css	  ***/
-/************************************/
 
 .contact-now {
   padding: 100px 0;
@@ -2131,9 +2098,6 @@ header.main-header .header-sticky.active {
   margin: 0;
 }
 
-/************************************/
-/***        14. Footer css  	  ***/
-/************************************/
 
 footer.main-footer {
   padding: 100px 0 0;
@@ -2208,9 +2172,6 @@ footer.main-footer {
   margin: 0;
 }
 
-/************************************/
-/***     15. About us Page css	  ***/
-/************************************/
 
 .page-header {
   background: var(--secondary-color) url("./images/page-header-bg.svg")
@@ -2424,9 +2385,6 @@ footer.main-footer {
   border-radius: 40px;
 }
 
-/************************************/
-/***     16. Services Page css	  ***/
-/************************************/
 
 .page-services {
   padding: 100px 0 70px;
@@ -2436,9 +2394,6 @@ footer.main-footer {
   border: 1px solid var(--dark-divider-color);
 }
 
-/************************************/
-/***    17. Service Single css	  ***/
-/************************************/
 
 .page-service-single {
   padding: 100px 0;
@@ -2717,9 +2672,6 @@ footer.main-footer {
   margin: 0;
 }
 
-/************************************/
-/***    18. Blog Archive css	  ***/
-/************************************/
 
 .page-blog {
   padding: 100px 0;
@@ -2763,10 +2715,6 @@ footer.main-footer {
   background: var(--accent-color);
   color: var(--white-color);
 }
-
-/************************************/
-/***     19. Blog Single css	  ***/
-/************************************/
 
 .page-single-post {
   padding: 100px 0;
@@ -3001,17 +2949,11 @@ footer.main-footer {
   color: var(--secondry-color);
 }
 
-/************************************/
-/***      20. Team Page css  	  ***/
-/************************************/
 
 .page-team {
   padding: 100px 0 70px;
 }
 
-/************************************/
-/***   21. Team Single Page css	  ***/
-/************************************/
 
 .page-team-single {
   padding: 100px 0 25px;
@@ -3331,9 +3273,6 @@ footer.main-footer {
   margin-bottom: 30px;
 }
 
-/************************************/
-/***     22. Gallery Page css	  ***/
-/************************************/
 
 .our-gallery-page {
   padding: 100px 0 70px;
@@ -3425,9 +3364,6 @@ footer.main-footer {
   opacity: 1;
 }
 
-/************************************/
-/***    23. Technology Page css	  ***/
-/************************************/
 
 .page-techonology {
   padding: 100px 0;
@@ -3475,9 +3411,6 @@ footer.main-footer {
   max-width: 500px;
 }
 
-/************************************/
-/***   24. Testimonial Page css	  ***/
-/************************************/
 
 .page-testimonials {
   padding: 100px 0 70px;
@@ -3553,9 +3486,6 @@ footer.main-footer {
   margin: 0;
 }
 
-/************************************/
-/***   25. Contact us Page css	  ***/
-/************************************/
 
 .page-contact {
   padding: 100px 0 50px;
@@ -3574,10 +3504,6 @@ footer.main-footer {
   margin-bottom: 30px;
 }
 
-/* .contact-us-content .col-md-6:nth-last-child(-n + 2) .contact-us-item{
-	height: auto;
-	margin-bottom: 0;
-} */
 
 .contact-us-item .icon-box {
   background: var(--secondary-color);
@@ -3642,9 +3568,6 @@ footer.main-footer {
   box-shadow: none;
 }
 
-/************************************/
-/***      26. FAQs Page css 	  ***/
-/************************************/
 
 .page-faqs {
   padding: 100px 0;
@@ -3775,9 +3698,6 @@ footer.main-footer {
   margin: 0;
 }
 
-/***************************************/
-/***  27. Make Appointment Page css  ***/
-/***************************************/
 
 .page-book-appointment {
   padding: 100px 0;
@@ -3812,9 +3732,6 @@ footer.main-footer {
   box-shadow: none;
 }
 
-/************************************/
-/*** 	   28. 404 Page css       ***/
-/************************************/
 
 .error-page {
   padding: 100px 0;

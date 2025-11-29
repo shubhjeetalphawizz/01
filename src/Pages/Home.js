@@ -46,24 +46,7 @@ const Home = () => {
                   </a>
                 </div>
 
-                <div
-                  className="google-rating wow fadeInUp"
-                  data-wow-delay="0.75s"
-                >
-                  <ul>
-                    <li>
-                      Google Rating <span>5.0</span>
-                    </li>
-                    <li>
-                      <i className="fa-solid fa-star"></i>
-                      <i className="fa-solid fa-star"></i>
-                      <i className="fa-solid fa-star"></i>
-                      <i className="fa-solid fa-star"></i>
-                      <i className="fa-solid fa-star"></i>
-                    </li>
-                    <li>based on 492 reviews</li>
-                  </ul>
-                </div>
+               
               </div>
             </div>
 
@@ -75,17 +58,7 @@ const Home = () => {
                   </figure>
                 </div>
 
-                <div className="export-dantist-box">
-                  <div className="icon-box">
-                    <figure className="image-anime">
-                      <img src={DantistDoctor} alt="" />
-                    </figure>
-                  </div>
-                  <div className="export-dantist-content">
-                    <h3>dr. clara Lee</h3>
-                    <p>dantist</p>
-                  </div>
-                </div>
+              
 
                 <div className="hero-icon-list">
                   <div className="hero-icon-box-1">

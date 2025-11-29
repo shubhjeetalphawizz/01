@@ -445,14 +445,6 @@ header.main-header .header-sticky.active {
   transition: all 0.3s ease-in-out;
 }
 
-/* .main-menu ul li.submenu > a:after {
-  content: "\f107";
-  font-family: "FontAwesome";
-  font-weight: 900;
-  font-size: 14px;
-  margin-left: 8px;
-} */
-
 .main-menu ul li a:hover,
 .main-menu ul li a:focus {
   color: var(--accent-color);
@@ -698,6 +690,7 @@ header.main-header .header-sticky.active {
 
 .hero-img {
   position: relative;
+  margin-bottom: 50px;
   z-index: 1;
 }
 
@@ -1149,6 +1142,7 @@ header.main-header .header-sticky.active {
   position: absolute;
   bottom: 0;
   right: 0;
+  width: 65%;
 }
 
 .about-img-2 img {
@@ -1202,16 +1196,16 @@ header.main-header .header-sticky.active {
 }
 
 .about-us-body ul li:before {
-  content: "\f058";
-  font-family: "Font Awesome 6 Free";
-  font-weight: 900;
-  font-size: 20px;
-  color: var(--accent-color);
+  content: "";
+  background-color: var(--accent-color);
   display: inline-block;
   line-height: normal;
   position: absolute;
-  top: 3px;
+  top: 8px;
   left: 0;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
 }
 
 /************************************/

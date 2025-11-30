@@ -6,7 +6,14 @@ import {
   IconServices1,
   IconServices2,
   IconServices4,
+  ServiceImg1,
+  ServiceImg2,
+  ServiceImg3,
+  ServiceImg4,
+  ServiceImg5,
+  ServiceImg6,
 } from "./Image";
+import { serviceData } from "./ServiceData";
 
 const Services = () => {
   return (
@@ -18,7 +25,7 @@ const Services = () => {
               <div className="section-title">
                 <h3 className="wow fadeInUp">our services</h3>
                 <h2 className="text-anime-style-2" data-cursor="-opaque">
-                  <span>Hight Quality</span> Services for You.
+                  <span>Our Quality</span> Services for You.
                 </h2>
                 <p className="wow fadeInUp" data-wow-delay="0.25s">
                   We are committed to sustainability. eco-friendly initiatives.
@@ -28,85 +35,26 @@ const Services = () => {
           </div>
 
           <div className="row">
-            <div className="col-lg-3 col-md-6">
-              <div className="service-item wow fadeInUp">
-                <div className="icon-box">
-                  <div className="img">
-                    <img src={IconServices1} alt="" />
+            {serviceData.map((data) => (
+              <div className="col-lg-3 col-md-6">
+                <NavLink to={`/service/${data.slug}`}>
+                  <div className="service-item wow fadeInUp">
+                    <div className="icon-box">
+                      <div className="img">
+                        <img src={data.icon} alt="" />
+                      </div>
+                    </div>
+                    <div className="service-body">
+                      <h3>{data.title}</h3>
+                      <p>{data.content}</p>
+                    </div>
+                    <div className="read-more-btn">
+                      <NavLink to={`/service/${data.slug}`}>read more</NavLink>
+                    </div>
                   </div>
-                </div>
-                <div className="service-body">
-                  <h3>general dental care</h3>
-                  <p>
-                    We are excited to meet you and provide the best dental care
-                    for your family.
-                  </p>
-                </div>
-                <div className="read-more-btn">
-                  <NavLink to="#">read more</NavLink>
-                </div>
+                </NavLink>
               </div>
-            </div>
-
-            <div className="col-lg-3 col-md-6">
-              <div className="service-item wow fadeInUp" data-wow-delay="0.25s">
-                <div className="icon-box">
-                  <div className="img">
-                    <img src={IconServices2} alt="" />
-                  </div>
-                </div>
-                <div className="service-body">
-                  <h3>dental implants</h3>
-                  <p>
-                    We are excited to meet you and provide the best dental care
-                    for your family.
-                  </p>
-                </div>
-                <div className="read-more-btn">
-                  <NavLink to="#">read more</NavLink>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-3 col-md-6">
-              <div className="service-item wow fadeInUp" data-wow-delay="0.5s">
-                <div className="icon-box">
-                  <div className="img">
-                    <img src={IconServices3} alt="" />
-                  </div>
-                </div>
-                <div className="service-body">
-                  <h3>cosmetic dentistry</h3>
-                  <p>
-                    We are excited to meet you and provide the best dental care
-                    for your family.
-                  </p>
-                </div>
-                <div className="read-more-btn">
-                  <NavLink to="#">read more</NavLink>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-3 col-md-6">
-              <div className="service-item wow fadeInUp" data-wow-delay="0.75s">
-                <div className="icon-box">
-                  <div className="img">
-                    <img src={IconServices4} alt="" />
-                  </div>
-                </div>
-                <div className="service-body">
-                  <h3>teeth whitening</h3>
-                  <p>
-                    We are excited to meet you and provide the best dental care
-                    for your family.
-                  </p>
-                </div>
-                <div className="read-more-btn">
-                  <NavLink to="#">read more</NavLink>
-                </div>
-              </div>
-            </div>
+            ))}
 
             <div className="col-lg-12 d-none">
               <div

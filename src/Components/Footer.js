@@ -15,9 +15,8 @@ const Footer = () => {
                 </div>
                 <div class="about-footer-content">
                   <p>
-                    The goal our clinic is provide friendly, caring dentistry
-                    and highest level of general, cosmetic, and specialist
-                    dental treatments.
+                    One of the best dental clinic in Indore, Bhapkar Dental
+                    Care,
                   </p>
                 </div>
               </div>
@@ -27,16 +26,19 @@ const Footer = () => {
                 <h3>quick links</h3>
                 <ul>
                   <li>
-                    <NavLink to="#">home</NavLink>
+                    <NavLink to="/">home</NavLink>
                   </li>
                   <li>
-                    <NavLink to="#">about us</NavLink>
+                    <NavLink to="/about">about us</NavLink>
                   </li>
                   <li>
-                    <NavLink to="#">services</NavLink>
+                    <NavLink to="/service">services</NavLink>
                   </li>
                   <li>
-                    <NavLink to="#">book apoointment</NavLink>
+                    <NavLink to="/blog">Blogs</NavLink>
+                  </li>
+                  <li>
+                    <NavLink to="/contact">book apoointment</NavLink>
                   </li>
                 </ul>
               </div>

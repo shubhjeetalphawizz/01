@@ -7,6 +7,7 @@ import StarIcon from "../images/icon-star.svg";
 import DantistDoctor from "../images/dantist-doctor-img.jpg";
 import AboutUsImg from "../Image/selfImg1.jpg";
 import AboutUsImg2 from "../Image/selfImg2.jpg";
+import kaustubh from "../Image/selfImg3.jpg";
 import AboutExpreanceImg from "../images/about-experience-circle.png";
 import IconServices1 from "../images/icon-services-1.svg";
 import IconServices2 from "../images/icon-services-2.svg";
@@ -35,9 +36,33 @@ import dentalProcess1 from "../images/dental-process-img-1.jpg";
 import dentalProcess2 from "../images/dental-process-img-2.jpg";
 import dentalProcess3 from "../images/dental-process-img-3.jpg";
 import dentalProcess4 from "../images/dental-process-img-4.jpg";
+import BlogPost1 from "../images/post-1.jpg";
+import VidImg1 from "../Image/VidImg1.png";
+import VidImg2 from "../Image/VidImg2.png";
+import VidImg3 from "../Image/VidImg3.png";
+import VidImg4 from "../Image/VidImg4.png";
+import PlayImg from "../Image/play-button.png";
+import Video1 from "../Image/Video1.mp4";
+import Video2 from "../Image/Video2.mp4";
+import Video3 from "../Image/Video3.mp4";
+import Video4 from "../Image/Video4.mp4";
+import teethImg1 from "../Image/theethImg1.jpg";
+import teethImg2 from "../Image/theethImg2.jfif";
+import teethImg3 from "../Image/theethImg3.jfif";
+import BlogPost2 from "../Image/blog-post1.jpg";
+import BlogPost3 from "../Image/blog-post2.jpg";
+import ServiceImg1 from "../Image/implant.png";
+import ServiceImg2 from "../Image/denture.png";
+import ServiceImg3 from "../Image/implant1.png";
+import ServiceImg4 from "../Image/dentist.png";
+import ServiceImg5 from "../Image/bad-teeth.png";
+import ServiceImg6 from "../Image/tooth.png";
 
 export {
+  ServiceImg1,
   Logo,
+  BlogPost3,
+  BlogPost2,
   HeroImg,
   Theeth1,
   Theeth2,
@@ -73,5 +98,24 @@ export {
   dentalProcess1,
   dentalProcess2,
   dentalProcess3,
+  kaustubh,
   dentalProcess4,
+  VidImg1,
+  VidImg2,
+  VidImg3,
+  VidImg4,
+  PlayImg,
+  Video1,
+  Video2,
+  Video3,
+  Video4,
+  teethImg1,
+  teethImg2,
+  teethImg3,
+  BlogPost1,
+  ServiceImg2,
+  ServiceImg3,
+  ServiceImg4,
+  ServiceImg5,
+  ServiceImg6,
 };

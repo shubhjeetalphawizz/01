@@ -9,6 +9,8 @@ import Footer from "./Components/Footer";
 import Service from "./Pages/Service";
 import Blog from "./Components/Blog";
 import Contact from "./Pages/Contact";
+import BlogDetails from "./Pages/BlogDetails";
+import ServiceDetails from './Pages/ServiceDetails';
 
 function App() {
   return (
@@ -18,8 +20,10 @@ function App() {
         <Route element={<Home />} path="/" />
         <Route element={<About />} path="/about" />
         <Route element={<Service />} path="/service" />
+        <Route element={<ServiceDetails />} path="/service/:slug" />
         <Route element={<Blog />} path="/blog" />
         <Route element={<Contact />} path="/contact" />
+        <Route element={<BlogDetails />} path="/blog/:slug" />
       </Routes>
       <Footer />
     </>

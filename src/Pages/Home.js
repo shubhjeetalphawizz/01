@@ -13,6 +13,7 @@ import {
 import HowWork from "../Components/HowWork";
 import Testimonial from "../Components/Testimonial";
 import Blog from "../Components/Blog";
+import VidTestimonial from "../Components/VidTestimonial";
 
 const Home = () => {
   return (
@@ -41,7 +42,7 @@ const Home = () => {
                 <div
                   className="hero-content-body wow fadeInUp"
                   data-wow-delay="0.5s"
-                >
+                  >
                   <NavLink to="/contact" className="btn-default">
                     make an appointment
                   </NavLink>
@@ -83,6 +84,7 @@ const Home = () => {
       <Services />
       <WhyChoose />
       <HowWork />
+      <VidTestimonial />
       <Testimonial />
       <Blog />
     </>

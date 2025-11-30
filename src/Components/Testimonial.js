@@ -9,6 +9,7 @@ import {
   author1,
   author2,
   author3,
+  kaustubh,
 } from "./Image";
 import { Autoplay } from "swiper/modules";
 
@@ -36,7 +37,7 @@ const Testimonial = () => {
               <div className="testimonial-image">
                 <div className="testimonial-img">
                   <figure className="image-anime">
-                    <img src={testimonialImg1} alt="" />
+                    <img src={kaustubh} alt="" />
                   </figure>
                 </div>
 

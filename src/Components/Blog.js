@@ -1,6 +1,7 @@
 import React from "react";
-import { StarIcon, post1, post2, post3 } from "./Image";
+import { StarIcon } from "./Image";
 import { NavLink } from "react-router-dom";
+import { blogData } from "./BlogData";
 
 const Blog = () => {
   return (
@@ -22,89 +23,38 @@ const Blog = () => {
           </div>
 
           <div className="row">
-            <div className="col-lg-4 col-md-6">
-              <div className="blog-item wow fadeInUp">
-                <div className="post-featured-image" data-cursor-text="View">
-                  <figure>
-                    <NavLink to="#" className="image-anime">
-                      <img src={post1} alt="" />
+            {blogData.map((blogList) => (
+              <div className="col-lg-4 col-md-6" key={blogList.id}>
+                <div className="blog-item wow fadeInUp">
+                  <div className="post-featured-image" data-cursor-text="View">
+                    <figure>
+                      <NavLink
+                        to={`/blog/${blogList.slug}`}
+                        className="image-anime"
+                      >
+                        <img src={blogList.image} alt="" />
+                      </NavLink>
+                    </figure>
+                  </div>
+                  <div className="post-item-body">
+                    <h2>
+                      <NavLink to={`/blog/${blogList.slug}`}>
+                        {blogList.title}
+                      </NavLink>
+                    </h2>
+                    <p>{blogList.content}</p>
+                  </div>
+                  <div className="post-item-footer">
+                    <NavLink
+                      className="read-more-btn"
+                      to={`/blog/${blogList.slug}`}
+                    >
+                      read more
                     </NavLink>
-                  </figure>
-                </div>
-                <div className="post-item-body">
-                  <h2>
-                    <NavLink to="#">
-                      The Importance of Regular Dental Check-Ups
-                    </NavLink>
-                  </h2>
-                  <p>
-                    Our waiting room features a variety of plants that help
-                    purify the air.
-                  </p>
-                </div>
-                <div className="post-item-footer">
-                  <NavLink className="read-more-btn" to="#">
-                    read more
-                  </NavLink>
+                  </div>
                 </div>
               </div>
-            </div>
-
-            <div className="col-lg-4 col-md-6">
-              <div className="blog-item wow fadeInUp" data-wow-delay="0.25s">
-                <div className="post-featured-image" data-cursor-text="View">
-                  <figure>
-                    <NavLink className="image-anime" to="#">
-                      <img src={post2} alt="" />
-                    </NavLink>
-                  </figure>
-                </div>
-                <div className="post-item-body">
-                  <h2>
-                    <NavLink to="#">
-                      Top 5 Benefits of Professional Teeth Whitening
-                    </NavLink>
-                  </h2>
-                  <p>
-                    We believe in promoting health and wellness in every aspect
-                    of our clinic.
-                  </p>
-                </div>
-                <div className="post-item-footer">
-                  <NavLink to="#" className="read-more-btn">
-                    read more
-                  </NavLink>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-4 col-md-6">
-              <div className="blog-item wow fadeInUp" data-wow-delay="0.25s">
-                <div className="post-featured-image" data-cursor-text="View">
-                  <figure>
-                    <NavLink to="#" className="image-anime">
-                      <img src={post3} alt="" />
-                    </NavLink>
-                  </figure>
-                </div>
-                <div className="post-item-body">
-                  <h2>
-                    <NavLink to="#">
-                      Understanding Dental Implants: What You Need to Know
-                    </NavLink>
-                  </h2>
-                  <p>
-                    Our clinic donates dental care services to underprivileged
-                    families.
-                  </p>
-                </div>
-                <div className="post-item-footer">
-                  <NavLink to="#" className="read-more-btn">
-                    read more
-                  </NavLink>
-                </div>
-              </div>
-            </div>
+            ))}
           </div>
         </div>
         <div className="icon-star-image">

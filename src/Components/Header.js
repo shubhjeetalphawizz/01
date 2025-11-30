@@ -1,5 +1,5 @@
 import React from "react";
-import { Logo } from "./Image";
+import { Logo, menu } from "./Image";
 import { NavLink } from "react-router-dom";
 
 const Header = () => {
@@ -48,7 +48,44 @@ const Header = () => {
                   </NavLink>
                 </div>
               </div>
-              <div className="navbar-toggle"></div>
+              <div className="navbar-toggle">
+                <button
+                  className="toggleBtn"
+                  data-bs-toggle="offcanvas"
+                  data-bs-target="#offcanvasRight"
+                  aria-controls="offcanvasRight"
+                >
+                  <img src={menu} />
+                </button>
+
+                <div
+                  className="offcanvas offcanvas-end"
+                  tabindex="-1"
+                  id="offcanvasRight"
+                  aria-labelledby="offcanvasRightLabel"
+                >
+                  <div className="offcanvas-header">
+                    <h5 className="offcanvas-title" id="offcanvasRightLabel">
+                      <img src={Logo} alt="Logo" className="mainLogo" />
+                    </h5>
+                    <button
+                      type="button"
+                      className="btn-close"
+                      data-bs-dismiss="offcanvas"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div className="offcanvas-body">
+                    <ul>
+                      <NavLink to="/">Home</NavLink>
+                      <NavLink to="/about">About</NavLink>
+                      <NavLink to="/service">Service</NavLink>
+                      <NavLink to="/blog">Blog</NavLink>
+                      <NavLink to="/contact">Make An Appointment</NavLink>
+                    </ul>
+                  </div>
+                </div>
+              </div>
             </div>
           </nav>
           <div className="responsive-menu"></div>

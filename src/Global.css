@@ -1282,8 +1282,7 @@ header.main-header .header-sticky.active {
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
-  color: #527282
-;
+  color: #527282;
 }
 .service-body p {
   margin: 0;
@@ -3770,6 +3769,39 @@ footer.main-footer {
 
 .mainLogo {
   width: 200px;
+}
+.navbar-toggle .offcanvas .offcanvas-header {
+  border-bottom: 1px solid #cdcdcd;
+}
+.navbar-toggle .offcanvas .offcanvas-body ul a {
+  padding: 10px 10px;
+  font-size: 16px;
+  font-weight: 600;
+  border-bottom: 1px solid #e2e2e2;
+  color: var(--primary-color);
+}
+.navbar-toggle .offcanvas .offcanvas-body ul a:last-child {
+  border-bottom: none;
+}
+.navbar-toggle .offcanvas .offcanvas-body ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+.navbar-toggle .offcanvas.offcanvas-end {
+  width: 300px;
+  color: #eff8ff;
+  background-color: #eff8ff;
+}
+.toggleBtn img {
+  width: 30px;
+  height: auto;
+  object-fit: contain;
+}
+.toggleBtn {
+  background-color: transparent;
+  border: none;
 }
 @media (min-width: 576px) {
   .modal-dialog {

@@ -57,6 +57,7 @@ import ServiceImg3 from "../Image/implant1.png";
 import ServiceImg4 from "../Image/dentist.png";
 import ServiceImg5 from "../Image/bad-teeth.png";
 import ServiceImg6 from "../Image/tooth.png";
+import menu from "../Image/menu.png";
 
 export {
   ServiceImg1,
@@ -118,4 +119,5 @@ export {
   ServiceImg4,
   ServiceImg5,
   ServiceImg6,
+  menu,
 };

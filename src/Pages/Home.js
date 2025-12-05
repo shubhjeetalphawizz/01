@@ -26,7 +26,7 @@ const Home = () => {
                 <div className="section-title">
                   <h1 className="text-anime-style-2" data-cursor="-opaque">
                     Meet Dr. <br></br>
-                    <span>Kaustubh Bhapkar</span>
+                    <span>Bhapkar Dental Care.</span>
                   </h1>
                   <p className="wow fadeInUp" data-wow-delay="0.25s">
                     One of the best dental clinic in Indore, Bhapkar Dental
@@ -42,7 +42,7 @@ const Home = () => {
                 <div
                   className="hero-content-body wow fadeInUp"
                   data-wow-delay="0.5s"
-                  >
+                >
                   <NavLink to="/contact" className="btn-default">
                     make an appointment
                   </NavLink>

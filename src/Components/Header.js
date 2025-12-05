@@ -1,5 +1,5 @@
 import React from "react";
-import { Logo, menu } from "./Image";
+import { Logo, menu,MainLogo } from "./Image";
 import { NavLink } from "react-router-dom";
 
 const Header = () => {
@@ -10,7 +10,7 @@ const Header = () => {
           <nav className="navbar navbar-expand-lg">
             <div className="container">
               <NavLink className="navbar-brand" to="/">
-                <img src={Logo} alt="Logo" className="mainLogo" />
+                <img src={MainLogo} alt="Logo" className="mainLogo" />
               </NavLink>
               <div className="collapse navbar-collapse main-menu">
                 <div className="nav-menu-wrapper">

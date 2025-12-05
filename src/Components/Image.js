@@ -36,6 +36,10 @@ import dentalProcess1 from "../images/dental-process-img-1.jpg";
 import dentalProcess2 from "../images/dental-process-img-2.jpg";
 import dentalProcess3 from "../images/dental-process-img-3.jpg";
 import dentalProcess4 from "../images/dental-process-img-4.jpg";
+import contactIcon1 from "../images/icon-location.svg";
+import contactIcon2 from "../images/icon-phone.svg";
+import contactIcon3 from "../images/icon-mail.svg";
+import contactIcon4 from "../images/icon-clock.svg";
 import BlogPost1 from "../images/post-1.jpg";
 import VidImg1 from "../Image/VidImg1.png";
 import VidImg2 from "../Image/VidImg2.png";
@@ -58,9 +62,12 @@ import ServiceImg4 from "../Image/dentist.png";
 import ServiceImg5 from "../Image/bad-teeth.png";
 import ServiceImg6 from "../Image/tooth.png";
 import menu from "../Image/menu.png";
+import HeroImg2 from "../Image/heroImg2.png";
+import MainLogo from "../Image/mainLogo1.png";
 
 export {
   ServiceImg1,
+  MainLogo,
   Logo,
   BlogPost3,
   BlogPost2,
@@ -120,4 +127,9 @@ export {
   ServiceImg5,
   ServiceImg6,
   menu,
+  HeroImg2,
+  contactIcon1,
+  contactIcon2,
+  contactIcon3,
+  contactIcon4,
 };

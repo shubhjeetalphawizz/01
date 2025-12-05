@@ -1,28 +1,28 @@
 import React from "react";
-import { Logo } from "./Image";
+import { Logo, MainLogo } from "./Image";
 import { NavLink } from "react-router-dom";
 
 const Footer = () => {
   return (
     <>
-      <footer class="main-footer">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-4">
-              <div class="about-footer">
-                <div class="footer-logo">
-                  <img src={Logo} alt="" />
+      <footer className="main-footer">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-4">
+              <div className="about-footer">
+                <div className="footer-logo">
+                  <img src={MainLogo} alt="" />
                 </div>
-                <div class="about-footer-content">
+                <div className="about-footer-content">
                   <p>
-                    One of the best dental clinic in Indore, Bhapkar Dental
-                    Care,
+                    One of the best dental clinic in Indore,<br></br> Bhapkar
+                    Dental Care,
                   </p>
                 </div>
               </div>
             </div>
-            <div class="col-lg-3 col-md-4">
-              <div class="footer-links footer-quick-links">
+            <div className="col-lg-3 col-md-4">
+              <div className="footer-links footer-quick-links">
                 <h3>quick links</h3>
                 <ul>
                   <li>
@@ -44,8 +44,8 @@ const Footer = () => {
               </div>
             </div>
 
-            <div class="col-lg-3 col-md-4">
-              <div class="footer-links footer-social-links">
+            <div className="col-lg-3 col-md-4">
+              <div className="footer-links footer-social-links">
                 <h3>social media</h3>
                 <ul>
                   <li>
@@ -64,25 +64,25 @@ const Footer = () => {
               </div>
             </div>
 
-            <div class="col-lg-2 col-md-4">
-              <div class="footer-links footer-contact-links">
+            <div className="col-lg-2 col-md-4">
+              <div className="footer-links footer-contact-links">
                 <h3>contact us</h3>
                 <ul>
                   <li>
-                    <NavLink to="#">info@dental.com</NavLink>
+                    <NavLink to="#">bhapkar@gmail.com</NavLink>
                   </li>
                   <li>
-                    <NavLink to="#">+91 98765 43210</NavLink>
+                    <NavLink to="#">+91 92017 31382</NavLink>
                   </li>
                 </ul>
               </div>
             </div>
           </div>
 
-          <div class="footer-copyright">
-            <div class="row">
-              <div class="col-lg-12">
-                <div class="footer-copyright-text">
+          <div className="footer-copyright">
+            <div className="row">
+              <div className="col-lg-12">
+                <div className="footer-copyright-text">
                   <p>Copyright © 2025 All Rights Reserved.</p>
                 </div>
               </div>

@@ -640,17 +640,11 @@ header.main-header .header-sticky.active {
   background: var(--secondary-color) url("./images/hero-bg.svg") no-repeat;
   background-position: center center;
   background-size: auto;
-  padding: 50px 0 0;
+  padding: 75px 0 75px;
 }
 
 .hero-content {
   padding-right: 100px;
-}
-
-.hero-content-body {
-  border-bottom: 1px solid var(--dark-divider-color);
-  padding-bottom: 30px;
-  margin-bottom: 30px;
 }
 
 .google-rating ul {
@@ -686,8 +680,12 @@ header.main-header .header-sticky.active {
 
 .hero-img {
   position: relative;
-  margin-bottom: 50px;
   z-index: 1;
+}
+.hero-img img {
+  border-radius: 30px;
+  background-color: #1e84b5;
+  padding: 5px;
 }
 
 .hero-icon-list .hero-icon-box-1 {
@@ -2104,12 +2102,12 @@ footer.main-footer {
 }
 
 .footer-logo {
-  margin-bottom: 35px;
+  margin-bottom: 10px;
 }
 
 .footer-logo img {
   width: 100%;
-  max-width: 220px;
+  max-width: 275px;
   padding: 5px 10px;
   background-color: #eff8ff;
   border-radius: 5px;
@@ -2526,10 +2524,6 @@ footer.main-footer {
 .cta-contact-btn .btn-default:hover {
   background-color: transparent;
   color: var(--white-color);
-}
-
-.service-single-content {
-  padding-bottom: 100px;
 }
 
 .service-featured-image {
@@ -3768,7 +3762,7 @@ footer.main-footer {
 }
 
 .mainLogo {
-  width: 200px;
+  width: 275px;
 }
 .navbar-toggle .offcanvas .offcanvas-header {
   border-bottom: 1px solid #cdcdcd;
@@ -3802,6 +3796,9 @@ footer.main-footer {
 .toggleBtn {
   background-color: transparent;
   border: none;
+}
+.heighlightText {
+  background-color: yellow;
 }
 @media (min-width: 576px) {
   .modal-dialog {
@@ -4318,10 +4315,6 @@ footer.main-footer {
 
   .sidebar-cta-box .cta-content h3 {
     font-size: 30px;
-  }
-
-  .service-single-content {
-    padding-bottom: 50px;
   }
 
   .service-entry h2 {
@@ -5245,5 +5238,10 @@ footer.main-footer {
 
   .error-page-content-heading h2 {
     font-size: 28px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .hero {
+    padding: 30px 0 50px;
   }
 }

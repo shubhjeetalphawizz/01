@@ -9,11 +9,13 @@ import {
   Theeth2,
   Theeth3,
   StarIcon,
+  HeroImg2,
 } from "../Components/Image";
 import HowWork from "../Components/HowWork";
 import Testimonial from "../Components/Testimonial";
 import Blog from "../Components/Blog";
 import VidTestimonial from "../Components/VidTestimonial";
+import ContactInfo from "../Components/ContactInfo";
 
 const Home = () => {
   return (
@@ -25,8 +27,12 @@ const Home = () => {
               <div className="hero-content">
                 <div className="section-title">
                   <h1 className="text-anime-style-2" data-cursor="-opaque">
-                    Meet Dr. <br></br>
-                    <span>Bhapkar Dental Care.</span>
+                    <small>
+                      {" "}
+                      <small>Welcome to</small>
+                    </small>{" "}
+                    <br></br>
+                    <span>Bhapkar Dental Care</span>
                   </h1>
                   <p className="wow fadeInUp" data-wow-delay="0.25s">
                     One of the best dental clinic in Indore, Bhapkar Dental
@@ -54,11 +60,11 @@ const Home = () => {
               <div className="hero-image">
                 <div className="hero-img">
                   <figure>
-                    <img src={HeroImg} alt="" />
+                    <img src={HeroImg2} alt="" />
                   </figure>
                 </div>
 
-                <div className="hero-icon-list">
+                {/* <div className="hero-icon-list">
                   <div className="hero-icon-box-1">
                     <img src={Theeth1} alt="" />
                   </div>
@@ -70,7 +76,7 @@ const Home = () => {
                   <div className="hero-icon-box-3">
                     <img src={Theeth3} alt="" />
                   </div>
-                </div>
+                </div> */}
 
                 <div className="icon-star-image">
                   <img src={StarIcon} alt="" />
@@ -83,8 +89,9 @@ const Home = () => {
       <About />
       <Services />
       <WhyChoose />
-      <HowWork />
+      {/* <HowWork /> */}
       <VidTestimonial />
+      <ContactInfo />
       <Testimonial />
       <Blog />
     </>

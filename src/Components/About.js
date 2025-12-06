@@ -33,27 +33,40 @@ const About = () => {
             <div className="col-lg-6">
               <div className="about-content">
                 <div className="section-title">
-                  <h3 className="wow fadeInUp">about us</h3>
+                  <h3 className="wow fadeInUp">Best Dentist in Indore</h3>
                   <h2 className="text-anime-style-2" data-cursor="-opaque">
-                    <span>Your Journey</span> to a Healthier Smile Begins Here
+                    <span>Meet Dr.</span>
+                    <br></br> Kaustubh Bhapkar
                   </h2>
                   <p className="wow fadeInUp" data-wow-delay="0.25s">
-                    Meet Dr. Kaustubh Bhapkar — One of Indore’s Leading Dental
-                    Specialists. Dr kaustubh Bhapkar is widely regarded as one
-                    of the most trusted and accomplished dentists in Indore,
-                    India, known for his precision, expertise, and
-                    uncompromising commitment to patient care. With over 10+
-                    years of clinical experience, he has established himself as
-                    a specialist in Dental Implants, Full-Mouth Rehabilitation
-                    and Smile Designing. A graduate of the prestigious Sri
-                    Aurobindo Institute of Medical and Dental Sciences, Indore
-                    Dr. Kaustubh went on to complete his MDS in Maxillofacial
-                    Prosthodontics and Implantology from Jaipur Dental College,
-                    Jaipur, further strengthening his foundation in advanced and
-                    reconstructive dentistry.
+                    <span className="heighlightText">
+                      One of Indore’s Leading Dental Specialists. Dr kaustubh
+                      Bhapkar 
+                    </span>  {"  "}
+                     is widely regarded as one of the most trusted and
+                    accomplished dentists in Indore, India, known for his
+                    precision, expertise, and uncompromising commitment to
+                    patient care. With over 10+ years of clinical experience, he
+                    has established himself as a specialist in Dental Implants,
+                    Full-Mouth Rehabilitation and Smile Designing.
+                  </p>
+
+                  {/* <p>
+                    Recognised for his academic contributions, he has been
+                    invited as a speaker at multiple conferences and has
+                    numerous national and international publications, reflecting
+                    his expertise and leadership in the field.
+                  </p> */}
+                  <p>
+                    Patients appreciate Dr. Kaustubh for his calm approach,
+                    sharp clinical judgment, and dedication to delivering
+                    painless, precise, and long-lasting results. His goal is
+                    simple yet powerful to provide specialised, high-quality
+                    dentistry that helps patients regain their confidence and
+                    smile without hesitation.
                   </p>
                 </div>
-                <div
+                {/* <div
                   className="about-us-body wow fadeInUp"
                   data-wow-delay="0.5s"
                 >
@@ -63,7 +76,7 @@ const About = () => {
                     <li>state-of-the-art technology</li>
                     <li>emergency dental services</li>
                   </ul>
-                </div>
+                </div> */}
                 <div
                   className="about-us-footer wow fadeInUp"
                   data-wow-delay="0.75s"

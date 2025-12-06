@@ -1,5 +1,5 @@
 import React from "react";
-import { Logo, menu,MainLogo } from "./Image";
+import { Logo, menu, MainLogo } from "./Image";
 import { NavLink } from "react-router-dom";
 
 const Header = () => {
@@ -36,9 +36,9 @@ const Header = () => {
                       </NavLink>
                     </li>
                     <li className="nav-item highlighted-menu">
-                      <a className="nav-link" href="#">
+                      <NavLink className="nav-link" href="/contact">
                         book appointment
-                      </a>
+                      </NavLink>
                     </li>
                   </ul>
                 </div>
@@ -55,7 +55,7 @@ const Header = () => {
                   data-bs-target="#offcanvasRight"
                   aria-controls="offcanvasRight"
                 >
-                  <img src={menu} />
+                  <img src={menu} alt="" />
                 </button>
 
                 <div
@@ -66,7 +66,7 @@ const Header = () => {
                 >
                   <div className="offcanvas-header">
                     <h5 className="offcanvas-title" id="offcanvasRightLabel">
-                      <img src={Logo} alt="Logo" className="mainLogo" />
+                      <img src={MainLogo} alt="Logo" className="mainLogo" />
                     </h5>
                     <button
                       type="button"

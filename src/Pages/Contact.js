@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import ContactInfo from "../Components/ContactInfo";
 
 const Contact = () => {
   return (
@@ -40,7 +41,6 @@ const Contact = () => {
                 </div>
               </div>
             </div>
-
             <div className="row">
               <div className="col-lg-12">
                 <div className="appointment-form wow fadeInUp">
@@ -148,6 +148,8 @@ const Contact = () => {
           </div>
         </div>
       </div>
+
+      <ContactInfo />
     </>
   );
 };
